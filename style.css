@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, yellow, lightblue);
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#name {
+    font-family: inherit;
+    font-display: swap;
+    font-kerning: normal;
+
+
+
+}
+
+h1 {
+    text-shadow: 2px 2px #98eb34;
+    font-size: 20px;
+}
+
+p {
+
+    font-size: 18px;
+    color: #a84032;
+}
+
+#bio {
+    padding: 20;
+    font-size: 18;
+    text-align: center;
+
+}
+
+.menue {
+    list-style: none;
+    font-family: cursive;
+    top:10px;
+    right: 30px;
+    cursor:pointer;
+    color: black;
+    position:absolute;
+    
+    
+}
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: aqua;
+}
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
